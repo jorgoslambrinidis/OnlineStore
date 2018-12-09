@@ -1,0 +1,33 @@
+.card-title {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.card-header {
+  font-weight: 500;
+}
+
+.card-subheaders {
+  /* font-size: small; */
+  font-size: 0.9em;
+  color: brown
+}
+
+.card-text {
+  list-style-type: circle;
+  font-size: 0.8em;
+}
+
+/* .card:hover {
+  opacity: 0.1;
+  cursor: pointer;
+} */
+
+.border-light:hover {
+  border-color: #c5c5c5!important;
+}
+
+.container-padding {
+  padding-left: 10em;
+  padding-right: 10em;
+}

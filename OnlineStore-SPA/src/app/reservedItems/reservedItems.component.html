@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+
+    <div class="card border-light mb-3 col-xs-12 col-md-12" *ngFor="let item of items">
+
+      <div class="row card-header">
+        <div class="col-md-9">
+          <div class="text-uppercase">{{item.Name}}</div>
+        </div>
+        <div class="col-md-3 text-right">
+          <span class="card-subheaders">€ {{item.Price}}</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <h6 class="card-title">Description: {{item.Description}}</h6>
+        <ul class="card-text">
+          <li>Reserved: {{item.IsReserved}}</li>
+          <!-- <li>Number of items: {{item.NumberOfItems}}</li> -->
+          <li>Date: {{item.Date | date }}</li>
+        </ul>
+      </div>
+      <div class="row card-footer flex-md-row-reverse">
+        <!-- <button class="btn btn-success col-md-2 col-xs-6">Buy</button> -->
+      </div>
+
+    </div>
+
+  </div>
+</div>
